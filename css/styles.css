@@ -1,12 +1,14 @@
 body {
     font-family: "Roboto", sans-serif;
+    display: flex;
+    flex-direction: column;
+    margin: 0;
 }
 .Hero{
     background-color: #1F2937;
     display: flex;
     flex-direction: column;
     margin: 0;
-
 }
 .head-image {
     flex: 0;
@@ -49,6 +51,7 @@ h1 {
 .head-main {
     display: flex;
     justify-content: space-evenly;
+    flex-wrap: wrap;
 }
 .main-left {
     display: flex;
@@ -83,6 +86,9 @@ h2 {
     display: flex;
     flex-direction: column;
     text-align: center;
+    flex: auto;
+    padding-top: 50px; 
+    padding-bottom: 50px;
 }
 .container {
     display: flex;
@@ -90,11 +96,18 @@ h2 {
     padding: 16px;
     margin-bottom: 40px;
     flex-wrap: wrap;
+    gap: 8px;
 }
 .item {
     display: flex;
     flex-direction: column;
     max-width: 300px;
+    text-align: center;
+}
+.text {
+    font-size: 16px;
+    font-weight: 500;
+    color: #1F2937;
 }
 
 /* testimonial box */
@@ -105,6 +118,7 @@ h2 {
    font-size: 36px;
    font-style: italic;
    font-weight: 100;
+   flex: auto;
 }
 .quote-name {
     font-weight: 700;
@@ -117,5 +131,46 @@ h2 {
     padding: 80px;
     padding-bottom: 0px;
 }
+
+/* call to action box */
+
+.cta-box {
+    background-color: #3882F6;
+    margin: 50px;
+    border-radius: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.cta-left {
+    padding: 50px;
+}
+
+button {
+    flex-shrink: 0;
+    margin-right: 200px; 
+    height: 50px;
+    width: 200px;
+    background-color: #3882F6;
+    border-style: dashed;
+    border-width: 2px;
+    border-color: #E5E7EB;
+    border-radius: 18px;
+}
+
+/* footer */
+
+.footer {
+    background-color: #1F2937;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+    
+}
+
+
+
 
 
