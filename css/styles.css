@@ -60,7 +60,7 @@ h1 {
     padding: 16px;
 }
 
-/* Main styling for second box of page */ 
+/* Main styling for info box of page */ 
 
 h2 {
     font-size: 36px;
@@ -86,12 +86,36 @@ h2 {
 }
 .container {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-evenly;
     padding: 16px;
     margin-bottom: 40px;
+    flex-wrap: wrap;
 }
 .item {
     display: flex;
     flex-direction: column;
     max-width: 300px;
 }
+
+/* testimonial box */
+
+.testimonial {
+   background-color: #E5E7EB; 
+   color: #1F2937;
+   font-size: 36px;
+   font-style: italic;
+   font-weight: 100;
+}
+.quote-name {
+    font-weight: 700;
+    text-align: end;
+    padding-right: 100px;
+    padding-bottom: 70px;
+
+}
+.quote {
+    padding: 80px;
+    padding-bottom: 0px;
+}
+
+
