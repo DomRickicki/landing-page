@@ -1,0 +1,1 @@
+This is a webpage creation project aimed at practicing CSS and flexbox writing skills. The goal is to work on efficient use of css styling and to practice committing to a git repository with good messages. 
